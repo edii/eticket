@@ -5,24 +5,25 @@
 
 // --> General settings
 $hesk_settings['site_title']='My Web site';
-$hesk_settings['site_url']='http://www.domain.com';
-$hesk_settings['support_mail']='support@domain.com';
-$hesk_settings['webmaster_mail']='support@domain.com';
-$hesk_settings['noreply_mail']='support@domain.com';
+$hesk_settings['site_url']='http://eticket.airweb.ua/';
+$hesk_settings['support_mail']='support@eticket.airweb.ua';
+$hesk_settings['webmaster_mail']='support@eticket.airweb.ua';
+$hesk_settings['noreply_mail']='support@eticket.airweb.ua';
 $hesk_settings['noreply_name']='Help Desk';
 
 // --> Language settings
 $hesk_settings['can_sel_lang']=0;
-$hesk_settings['language']='English';
+$hesk_settings['language']='Russian';
 $hesk_settings['languages']=array(
 'English' => array('folder'=>'en','hr'=>'------ Reply above this line ------'),
+'Russian' => array('folder'=>'ru','hr'=>'------ Reply above this line ------'),
 );
 
 // --> Database settings
 $hesk_settings['db_host']='localhost';
-$hesk_settings['db_name']='hesk';
-$hesk_settings['db_user']='test';
-$hesk_settings['db_pass']='test';
+$hesk_settings['db_name']='eticket';
+$hesk_settings['db_user']='eticket';
+$hesk_settings['db_pass']='ll8rbLGx';
 $hesk_settings['db_pfix']='hesk_';
 $hesk_settings['db_vrsn']=0;
 
@@ -31,8 +32,8 @@ $hesk_settings['db_vrsn']=0;
 
 // --> Help desk settings
 $hesk_settings['hesk_title']='Help Desk';
-$hesk_settings['hesk_url']='http://www.domain.com/helpdesk';
-$hesk_settings['server_path']='/home/mysite/public_html/helpdesk';
+$hesk_settings['hesk_url']='http://eticket.airweb.ua/helpdesk';
+$hesk_settings['server_path']='/home/eticket/data/eticket.airweb.ua';
 $hesk_settings['max_listings']=20;
 $hesk_settings['print_font_size']=12;
 $hesk_settings['autoclose']=7;
